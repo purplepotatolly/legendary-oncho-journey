@@ -12,6 +12,7 @@
       <author>Redaccion</author>
       <reach>240000</reach>
       <description>AUTOMOTRIZ CHIREY - CORPORATIVO</description>
+      <sentiment>"discrete": "p"</sentiment>
     </item>
     <item>
       <source>EL DIARIO DE JUÁREZ</source>
@@ -21,6 +22,7 @@
       <author>Redaccion</author>
       <reach>2000000</reach>
       <description>AUTOMOTRIZ OMODA - CORPORATIVO</description>
+      <sentiment.discrete>"v"</sentiment.discrete>
     </item>
 </channel>
 </rss>
