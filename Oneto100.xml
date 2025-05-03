@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
   <item>
     <source>EL TIEMPO (PIEDRAS NEGRAS)</source>
     <title>Le ganan agencias Asiáticas mercado de autos Chevrolet FORD y Cadillac</title>
@@ -18,4 +18,5 @@
     <reach>2000000</reach>
     <content>AUTOMOTRIZ OMODA - CORPORATIVO</content>
   </item>
-</feed>
+</channel>
+</rss>
