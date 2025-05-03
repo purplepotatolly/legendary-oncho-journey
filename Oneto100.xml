@@ -1,22 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-<channel>
-  <item>
-    <source>EL TIEMPO (PIEDRAS NEGRAS)</source>
-    <title>Le ganan agencias Asiáticas mercado de autos Chevrolet FORD y Cadillac</title>
-    <url>https://testigos.intermediaweb.com.mx/testigos/clip_reporte_histo_ssl.php?clave=91027571&amp;vcveusu=4983</url>
-    <pubDate>Sun Apr 20 2025 00:00:00 GMT+0800 (Singapore Standard Time)</pubDate>
-    <author>Redaccion</author>
-    <reach>240000</reach>
-    <content>AUTOMOTRIZ CHIREY - CORPORATIVO</content>
-  </item>
-  <item>
-    <source>EL DIARIO DE JUÁREZ</source>
-    <title>Inteligente manejo</title>
-    <url>https://testigos.intermediaweb.com.mx/testigos/clip_reporte_histo_ssl.php?clave=91008024&amp;vcveusu=4983</url>
-    <pubDate>Sat Apr 19 2025 00:00:00 GMT+0800 (Singapore Standard Time)</pubDate>
-    <author>Redaccion</author>
-    <reach>2000000</reach>
-    <content>AUTOMOTRIZ OMODA - CORPORATIVO</content>
-  </item>
+  <channel>
+    <title>Your Feed Title</title>
+    <link>http://www.yourwebsite.com</link>
+    <description>Your feed description</description>
+    <item>
+      <source>EL TIEMPO (PIEDRAS NEGRAS)</source>
+      <title>Le ganan agencias Asiáticas mercado de autos Chevrolet FORD y Cadillac</title>
+      <link>https://testigos.intermediaweb.com.mx/testigos/clip_reporte_histo_ssl.php?clave=91027571&amp;vcveusu=4983</link>
+      <pubDate>Sun Apr 20 2025 00:00:00 GMT+0800 (Singapore Standard Time)</pubDate>
+      <author>Redaccion</author>
+      <reach>240000</reach>
+      <description>AUTOMOTRIZ CHIREY - CORPORATIVO</description>
+    </item>
+    <item>
+      <source>EL DIARIO DE JUÁREZ</source>
+      <title>Inteligente manejo</title>
+      <link>https://testigos.intermediaweb.com.mx/testigos/clip_reporte_histo_ssl.php?clave=91008024&amp;vcveusu=4983</link>
+      <pubDate>Sat Apr 19 2025 00:00:00 GMT+0800 (Singapore Standard Time)</pubDate>
+      <author>Redaccion</author>
+      <reach>2000000</reach>
+      <description>AUTOMOTRIZ OMODA - CORPORATIVO</description>
+    </item>
 </channel>
 </rss>
