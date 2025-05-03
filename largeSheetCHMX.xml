@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
   <item>
     <source>EL TIEMPO (PIEDRAS NEGRAS)</source>
     <title>Le ganan agencias Asiáticas mercado de autos Chevrolet FORD y Cadillac</title>
@@ -5886,4 +5886,4 @@
     <reach>2940450</reach>
     <content>AUTOMOTRIZ EXEED - CORPORATIVO</content>
   </item>
-</feed>
+</channel>
