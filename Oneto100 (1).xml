@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Your Feed Title</title>
+    <link>http://www.yourwebsite.com</link>
+    <description>Your feed description</description>
+    <item>
+      <source>EL TIEMPO (PIEDRAS NEGRAS)</source>
+      <title>Le ganan agencias Asiáticas mercado de autos Chevrolet FORD y Cadillac</title>
+      <link>https://testigos.intermediaweb.com.mx/testigos/clip_reporte_histo_ssl.php?clave=91027571&amp;vcveusu=4983</link>
+      <pubDate>Sat, 19 Apr 2025 16:00:00 +0000</pubDate>
+      <author>Redaccion</author>
+      <reach>240000</reach>
+      <description>AUTOMOTRIZ CHIREY - CORPORATIVO, CORPORATIVO, MENCIÓN NACIONAL, Sentiment is Neutral</description>
+    </item>
+    <item>
+      <source>EL DIARIO DE JUÁREZ</source>
+      <title>Inteligente manejo</title>
+      <link>https://testigos.intermediaweb.com.mx/testigos/clip_reporte_histo_ssl.php?clave=91008024&amp;vcveusu=4983</link>
+      <pubDate>Fri, 18 Apr 2025 16:00:00 +0000</pubDate>
+      <author>Redaccion</author>
+      <reach>2000000</reach>
+      <description>AUTOMOTRIZ OMODA - CORPORATIVO, Sin subtema, DEDICADA NACIONAL, Sentiment is Positive</description>
+    </item>
+    </channel>
+</rss>
