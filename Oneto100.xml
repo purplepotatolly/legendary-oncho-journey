@@ -11,8 +11,7 @@
       <pubDate>Sat, 19 Apr 2025 16:00:00 +0000</pubDate>
       <author>Redaccion</author>
       <reach>240000</reach>
-      <description>AUTOMOTRIZ CHIREY - CORPORATIVO CORPORATIVO MENCIÓN NACIONAL NEU =</description>
-      <sentiment>"sentiment.discrete:n"</sentiment>
+      <description>AUTOMOTRIZ CHIREY - CORPORATIVO, CORPORATIVO, MENCIÓN NACIONAL, Sentiment is Neutral</description>
     </item>
     <item>
       <source>EL DIARIO DE JUÁREZ</source>
@@ -21,8 +20,7 @@
       <pubDate>Fri, 18 Apr 2025 16:00:00 +0000</pubDate>
       <author>Redaccion</author>
       <reach>2000000</reach>
-      <description>AUTOMOTRIZ OMODA - CORPORATIVO Sin subtema DEDICADA NACIONAL POS +</description>
-      <sentiment>"sentiment.discrete:p"</sentiment>
+      <description>AUTOMOTRIZ OMODA - CORPORATIVO, Sin subtema, DEDICADA NACIONAL, Sentiment is Positive</description>
     </item>
-</channel>
+    </channel>
 </rss>
