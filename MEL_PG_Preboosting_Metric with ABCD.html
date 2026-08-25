@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>P&amp;G × Meltwater — Pre-boosting score with ABCD creative principles</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#28BBBB;--teal-m:#00A7A5;--teal-d:#1C7070;--t1:#A3DFDF;--t2:#C0EBEB;--t3:#E1EFF0;--gray:#F0F4F4;--ink:#1A1A1A;--muted:#555555;--subtle:#8A9494;--border:#D7E1E1;--neg:#C0392B;--pos:#1C7070;}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;font-family:'Poppins',Arial,Helvetica,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+.topbar{background:var(--teal);color:#fff;padding:18px 48px;display:flex;justify-content:space-between;align-items:center}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px}
+.chip{font-size:12px;font-weight:600;background:rgba(255,255,255,.18);border-radius:999px;padding:5px 14px}
+.wrap{max-width:1280px;margin:0 auto;padding:32px 48px 60px}
+h1{font-size:28px;font-weight:700;letter-spacing:-.01em;margin:4px 0 8px}
+h1 b{color:var(--teal-d)}
+.sub{font-size:13.5px;color:var(--muted);max-width:880px;line-height:1.6;margin-bottom:8px}
+.modeled{display:inline-block;font-size:11px;font-weight:700;color:var(--neg);background:#FDECEA;border-radius:999px;padding:4px 12px;margin-bottom:18px}
+h2{font-size:18px;font-weight:700;margin:32px 0 4px}
+.h2sub{font-size:12.5px;color:var(--muted);margin-bottom:14px;max-width:880px;line-height:1.6}
+.score-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:10px}
+.scomp{background:#fff;border:1px solid var(--border);border-top:3px solid var(--teal);border-radius:10px;padding:16px}
+.scomp b{display:block;font-size:13px;margin-bottom:4px}
+.scomp .w{font-size:10.5px;font-weight:700;color:var(--teal-d);margin-bottom:8px}
+.scomp div{font-size:11.5px;color:var(--muted);line-height:1.55}
+.abcd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:14px 0 6px}
+.abcd{background:var(--t3);border-radius:10px;padding:16px}
+.abcd .ltr{width:34px;height:34px;border-radius:8px;background:var(--teal-d);color:#fff;font-weight:700;font-size:16px;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+.abcd b{display:block;font-size:13px;margin-bottom:2px}
+.abcd .pts{font-size:10.5px;font-weight:700;color:var(--teal-d);margin-bottom:8px}
+.abcd div{font-size:11.5px;color:var(--muted);line-height:1.55}
+.attrib{font-size:11px;color:var(--subtle);line-height:1.6;margin:10px 0 0;max-width:880px}
+.rule{background:var(--t3);border-left:4px solid var(--teal);border-radius:8px;padding:14px 18px;font-size:12.5px;color:var(--muted);line-height:1.65;margin:14px 0}
+.rule b{color:var(--teal-d)}
+.pgtabs{display:flex;gap:8px;margin-top:24px}
+.pgtab{padding:10px 24px;border-radius:10px 10px 0 0;border:1px solid var(--border);border-bottom:none;background:var(--gray);font-size:14px;font-weight:700;cursor:pointer;color:var(--muted)}
+.pgtab.on{background:#fff;color:var(--teal-d);border-color:var(--teal);position:relative;top:1px;border-bottom:2px solid #fff}
+.pgline{border-bottom:2px solid var(--teal);margin-bottom:20px}
+table{width:100%;border-collapse:collapse;font-size:11.5px;background:#fff;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+th{background:var(--teal);color:#fff;font-weight:700;text-align:left;padding:10px 10px;font-size:11px}
+td{padding:9px 10px;border-top:1px solid var(--t3);color:var(--muted);vertical-align:top}
+td a{color:var(--teal-d);font-weight:600;text-decoration:none}
+td a:hover{text-decoration:underline}
+td b{color:var(--ink)}
+.badge{display:inline-block;font-size:9.5px;font-weight:700;border-radius:6px;padding:2px 8px;white-space:nowrap}
+.b-boost{background:var(--t2);color:var(--teal-d)}
+.b-hold{background:var(--gray);color:var(--muted)}
+.b-no{background:#FDECEA;color:var(--neg)}
+.b-opp{background:var(--t3);color:var(--teal-d)}
+.b-crowd{background:var(--gray);color:var(--muted)}
+.scorepill{font-weight:700;color:var(--ink);font-size:13px}
+.abcdcell{font-size:10.5px;white-space:nowrap}
+.abcdcell b{font-size:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:6px}
+.panel{background:#fff;border:1px solid var(--border);border-radius:12px;padding:22px}
+.panel-h{font-size:14.5px;font-weight:700;margin-bottom:4px}
+.panel-s{font-size:11.5px;color:var(--subtle);margin-bottom:14px}
+.ba{display:grid;grid-template-columns:1fr auto auto auto;gap:8px 14px;font-size:11.5px;align-items:center}
+.ba .h{font-size:10px;font-weight:700;color:var(--subtle);text-transform:uppercase;letter-spacing:.04em}
+.ba b{color:var(--ink)}
+.delta{font-weight:700;color:var(--pos)}
+.delta.dn{color:var(--neg)}
+.opp{background:var(--teal-d);color:#fff;border-radius:12px;padding:24px;margin-top:28px}
+.opp h3{margin:0 0 8px;font-size:18px;font-weight:700}
+.opp p{font-size:13px;line-height:1.7;color:var(--t2);margin:0 0 10px}
+.opp .tagrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.opp .t{font-size:11px;font-weight:600;background:rgba(255,255,255,.14);border-radius:999px;padding:4px 12px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:10px}
+.step{background:var(--gray);border-radius:8px;padding:14px}
+.step b{display:block;font-size:12.5px;margin-bottom:4px}
+.step div{font-size:11.5px;color:var(--muted);line-height:1.55}
+.step i{display:block;font-style:normal;font-size:10.5px;color:var(--teal-d);font-weight:700;margin-top:8px}
+.foot{margin-top:44px;border-top:1px solid var(--border);padding-top:18px;display:flex;justify-content:space-between;font-size:11.5px;color:var(--subtle);flex-wrap:wrap;gap:8px}
+@media(max-width:1000px){.score-grid,.abcd-grid,.grid2,.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="logo"><svg width="30" height="30" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><circle cx="14" cy="14" r="14" fill="#fff"/><path d="M7 10.5l3.5 7L14 10.5l3.5 7 3.5-7" stroke="#28BBBB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>Meltwater</div>
+  <div class="chip">P&amp;G APAC social commerce vGrow · Dashboard 06 · Pre-boosting score</div>
+</div>
+<div class="wrap">
+
+  <h1><b>Pre-boosting score</b> — boost only what earns it</h1>
+  <div class="sub">A creative-quality metric applied to TikTok and Instagram posts before boost budget is committed. Version 2 integrates Google's ABCD creative principles — attention, branding, connection, direction — as the creative-quality layer, on top of the trend-context layer from the content trend framework. The premise is unchanged: strong creative riding a rising, unowned trend multiplies boost spend; strong creative pushing a crowded trend buys reach the brand was getting anyway. Sample window: January – March 2026.</div>
+  <div class="modeled">Scores, ABCD sub-scores and before/after deltas: modeled illustrative data — refresh from live Meltwater creative review before client use. Post URLs are the real samples supplied by P&amp;G.</div>
+
+  <h2>The pre-boost score v2 — creative quality × trend context, 0–100</h2>
+  <div class="score-grid">
+    <div class="scomp"><b>Creative quality — ABCD</b><div class="w">40% weight · 4 × 10 pts</div><div>The post is scored on the four ABCD principles below, adapted from paid video ads to organic creator content. Creative execution is the single biggest driver of campaign effectiveness — score it before spending on it.</div></div>
+    <div class="scomp"><b>Trend position</b><div class="w">30% weight</div><div>Which trend does the creative ride, and where does that trend sit in the content trend framework? Content opportunity earns full points; crowded space earns few — do not boost into saturation.</div></div>
+    <div class="scomp"><b>Engagement quality &amp; velocity</b><div class="w">15% weight</div><div>Likes, shares, saves and comments per view — saves and shares weighted above likes as stronger commerce-intent signals — plus first-48-hour growth against the creator's baseline.</div></div>
+    <div class="scomp"><b>Comment relevance</b><div class="w">15% weight</div><div>Percentage of comments relevant to the brand or category (e.g. Pantene or haircare). High views with off-topic comments signal entertainment value, not commerce value.</div></div>
+  </div>
+
+  <h2>The ABCD layer — what each principle asks of the creative</h2>
+  <div class="h2sub">Each principle scores 0–10. Guidance below is tuned to the Pantene Japan brief; the same rubric applies to Downy Philippines with its own distinctive assets.</div>
+  <div class="abcd-grid">
+    <div class="abcd"><div class="ltr">A</div><b>Attention — hook the viewer</b><div class="pts">0–10 pts</div><div>Earn engagement from the first seconds: open mid-action or on a close-up (damaged hair, the treatment moment), bright strong visuals, and sound-on audio — music, voice-over, texture sounds. No slow build-ups.</div></div>
+    <div class="abcd"><div class="ltr">B</div><b>Branding — early, often, richly</b><div class="pts">0–10 pts</div><div>Work Pantene into the story early and repeatedly — product and pack shots, the gold capsule as the distinctive visual asset, spoken brand mentions. Organic feeds are sound-on: audio branding counts.</div></div>
+    <div class="abcd"><div class="ltr">C</div><b>Connection — think or feel something</b><div class="pts">0–10 pts</div><div>Educate, inspire or entertain — humanised, focused storytelling with emotional levers like surprise. Pantene JP's proven arc is exactly this: "昔のイメージ" skepticism turning to surprise. One message, not many.</div></div>
+    <div class="abcd"><div class="ltr">D</div><b>Direction — ask for action</b><div class="pts">0–10 pts</div><div>One clear, simple next step: try the new treatment, tap the basket, save the routine. Text overlay, voice-over or an end-card scene. Weak D is the most common — and most fixable — failure in organic creator posts.</div></div>
+  </div>
+  <div class="attrib">Creative principles adapted from Google's ABCD framework for effective video creative (Think with Google), developed with Ipsos and independently validated by Nielsen and Kantar. On average the ABCDs deliver a 30% lift in short-term sales likelihood and a 17% lift in long-term brand contribution (Google/Kantar Link AI, global, 2021). Adaptation to organic creator content, weighting and trend-context layer: Meltwater.</div>
+
+  <div class="rule"><b>The boosting rule v2:</b> score ≥70 with the trend in content opportunity → boost. Score 50–69 → hold; if the gap is a weak D, fix it — add a CTA overlay or end-card — and re-score at 72 hours, because direction is repairable before spend. Score &lt;50, or any post riding a crowded-space trend → do not boost; no ABCD score can rescue a saturated trend, the budget moves to a higher-scoring asset. Track every metric before and after boost per post — the deltas train the next round's threshold.</div>
+
+  <div class="pgtabs">
+    <div class="pgtab" id="btn-ph">Philippines Downy · 5 sample posts</div>
+    <div class="pgtab on" id="btn-jp">Japan Pantene · 5 sample posts</div>
+  </div>
+  <div class="pgline"></div>
+
+  <div id="tab-ph" style="display:none">
+    <table>
+      <tr><th>Post</th><th>Platform · creator</th><th>Trend ridden</th><th>Quadrant</th><th>ABCD (A·B·C·D of 10)</th><th>Comment relevance</th><th>Pre-boost score</th><th>Recommendation</th></tr>
+      <tr><td><a href="https://www.tiktok.com/@theaguinaldos8/video/7611129237327711496" target="_blank">Family laundry-day skit</a></td><td>TikTok · @theaguinaldos8</td><td>Summer playtime sweat</td><td><span class="badge b-opp">Content opportunity</span></td><td class="abcdcell">9·8·8·7 · <b>32/40</b></td><td><b>34%</b> fabric care</td><td><span class="scorepill">84</span></td><td><span class="badge b-boost">Boost now</span></td></tr>
+      <tr><td><a href="https://www.facebook.com/100044289346748/posts/1469031551249809/" target="_blank">Mom testimonial post</a></td><td>Facebook · brand-adjacent page</td><td>Daily rewash routine</td><td><span class="badge b-crowd">Crowded space</span></td><td class="abcdcell">6·7·7·5 · <b>25/40</b></td><td><b>41%</b> fabric care</td><td><span class="scorepill">58</span></td><td><span class="badge b-hold">Hold — crowded trend</span></td></tr>
+      <tr><td><a href="https://www.tiktok.com/@mommyfelaandkelzykiel/video/7595406837021740306" target="_blank">Kids play-clothes wash routine</a></td><td>TikTok · @mommyfelaandkelzykiel</td><td>Rainy season indoor drying</td><td><span class="badge b-opp">Content opportunity</span></td><td class="abcdcell">9·8·9·8 · <b>34/40</b></td><td><b>46%</b> fabric care</td><td><span class="scorepill">89</span></td><td><span class="badge b-boost">Boost now</span></td></tr>
+      <tr><td><a href="https://www.instagram.com/p/DVARsmwkqe4" target="_blank">Scent-layering reel</a></td><td>Instagram · lifestyle creator</td><td>Fragrance longevity</td><td><span class="badge b-opp">Content opportunity</span></td><td class="abcdcell">7·6·8·6 · <b>27/40</b></td><td><b>28%</b> fabric care</td><td><span class="scorepill">72</span></td><td><span class="badge b-boost">Boost</span></td></tr>
+      <tr><td><a href="https://www.tiktok.com/@daniiiled/video/7602900250784697607" target="_blank">Comedy laundry fail</a></td><td>TikTok · @daniiiled</td><td>Generic laundry humour</td><td><span class="badge b-crowd">Crowded space</span></td><td class="abcdcell">9·3·6·2 · <b>20/40</b></td><td><b>7%</b> fabric care</td><td><span class="scorepill">41</span></td><td><span class="badge b-no">Do not boost</span></td></tr>
+    </table>
+    <div class="h2sub" style="margin-top:10px">Row 5 is the classic viral trap the ABCD layer exposes: a 9 on attention with near-zero branding (3) and direction (2), riding a saturated humour trend — huge views, no commerce value. This is exactly the spend the pre-boost score exists to protect.</div>
+  </div>
+
+  <div id="tab-jp">
+    <table>
+      <tr><th>Post</th><th>Platform · creator</th><th>Trend ridden</th><th>Quadrant</th><th>ABCD (A·B·C·D of 10)</th><th>Comment relevance</th><th>Pre-boost score</th><th>Recommendation</th></tr>
+      <tr><td><a href="https://www.tiktok.com/@ponta52/video/7623270330978635015" target="_blank">Damage-repair routine demo</a></td><td>TikTok · @ponta52</td><td>Hair colour damage</td><td><span class="badge b-opp">Content opportunity</span></td><td class="abcdcell">9·7·9·7 · <b>32/40</b></td><td><b>52%</b> haircare</td><td><span class="scorepill">86</span></td><td><span class="badge b-boost">Boost now</span></td></tr>
+      <tr><td><a href="https://www.tiktok.com/@mayunee_innerbeauty/video/7613715991331196181" target="_blank">Inner-beauty haircare talk</a></td><td>TikTok · @mayunee_innerbeauty</td><td>Ingredient deep-dives</td><td><span class="badge b-opp">Content opportunity</span></td><td class="abcdcell">7·6·8·5 · <b>26/40</b></td><td><b>47%</b> haircare</td><td><span class="scorepill">74</span></td><td><span class="badge b-boost">Boost</span></td></tr>
+      <tr><td><a href="https://www.tiktok.com/@ayu__kamata/video/7621719141522607380" target="_blank">Capsule treatment unboxing</a></td><td>TikTok · @ayu__kamata</td><td>Capsule format innovation</td><td><span class="badge b-crowd">Crowded space</span></td><td class="abcdcell">8·9·6·6 · <b>29/40</b></td><td><b>58%</b> haircare</td><td><span class="scorepill">63</span></td><td><span class="badge b-hold">Hold — brand-fuelled trend</span></td></tr>
+      <tr><td><a href="https://www.instagram.com/p/DWJNG6wj2iZ" target="_blank">Before/after treatment reel</a></td><td>Instagram · beauty creator</td><td>Breakage &amp; split ends</td><td><span class="badge b-opp">Content opportunity</span></td><td class="abcdcell">8·6·9·6 · <b>29/40</b></td><td><b>49%</b> haircare</td><td><span class="scorepill">80</span></td><td><span class="badge b-boost">Boost</span></td></tr>
+      <tr><td><a href="https://www.instagram.com/p/DVyD39jk03l?img_index=5" target="_blank">Multi-image routine carousel</a></td><td>Instagram · lifestyle creator</td><td>Night haircare routine</td><td><span class="badge b-opp">Content opportunity</span></td><td class="abcdcell">6·5·7·4 · <b>22/40</b></td><td><b>36%</b> haircare</td><td><span class="scorepill">65</span></td><td><span class="badge b-hold">Fix D, re-score 72h</span></td></tr>
+    </table>
+    <div class="h2sub" style="margin-top:10px">The ABCD layer changes two decisions: row 3 scores the strongest branding in the set (B 9 — the capsule is a genuinely distinctive asset) but rides a brand-fuelled crowded trend, so it stays held — creative quality cannot rescue quadrant. Row 5's gap is a weak direction score (D 4): add a clear try-the-treatment CTA overlay and re-score before spending — direction is the one repairable component.</div>
+  </div>
+
+  <div class="grid2">
+    <div class="panel">
+      <div class="panel-h">Before / after boosting — tracked per post</div>
+      <div class="panel-s">Modeled example from the two boosted PH posts · change measured over 14 days post-boost vs 14 days pre-boost</div>
+      <div class="ba">
+        <div class="h">Metric</div><div class="h">Pre</div><div class="h">Post</div><div class="h">Change</div>
+        <div>Engagements / day — laundry-day skit</div><div><b>3.4K</b></div><div><b>9.1K</b></div><div class="delta">+168%</div>
+        <div>Comment relevance — laundry-day skit</div><div><b>34%</b></div><div><b>31%</b></div><div class="delta dn">−3 pts</div>
+        <div>Saves / day — wash routine</div><div><b>260</b></div><div><b>1.1K</b></div><div class="delta">+323%</div>
+        <div>Comment relevance — wash routine</div><div><b>46%</b></div><div><b>49%</b></div><div class="delta">+3 pts</div>
+        <div>Follower conversion — wash routine</div><div><b>0.8%</b></div><div><b>2.1%</b></div><div class="delta">+1.3 pts</div>
+      </div>
+      <div class="rule" style="margin-bottom:0"><b>Read:</b> boosting amplified the high-scoring posts without degrading relevance — the score predicted it. The ABCD sub-scores sharpen the post-mortem: where relevance drops under boost, the creative was strong on A but weak on B and D. A fuller reference dataset (a tracked campaign with 10+ pre/post-boost posts) is available on request.</div>
+    </div>
+    <div class="panel">
+      <div class="panel-h">Lift and shift — repurpose winners onto YouTube</div>
+      <div class="panel-s">Best-performing TikTok and Instagram creator assets repurposed onto YouTube for shelf life and AI-answer authority — where the ABCD principles were validated in the first place</div>
+      <div class="ba">
+        <div class="h">Creator</div><div class="h">Short-form</div><div class="h">On YouTube?</div><div class="h">Action</div>
+        <div>@mommyfelaandkelzykiel</div><div><b>TikTok</b></div><div><b>Yes</b></div><div class="delta">Shift now</div>
+        <div>@theaguinaldos8</div><div><b>TikTok</b></div><div><b>Yes — family vlog</b></div><div class="delta">Shift now</div>
+        <div>@daniiiled</div><div><b>TikTok</b></div><div><b>No</b></div><div class="delta dn">Skip</div>
+        <div>@ponta52</div><div><b>TikTok</b></div><div><b>Yes — shorts</b></div><div class="delta">Shift now</div>
+        <div>@ayu__kamata</div><div><b>TikTok</b></div><div><b>No</b></div><div class="delta dn">Hold</div>
+      </div>
+      <div class="rule" style="margin-bottom:0"><b>Why it matters:</b> assets that already score well on ABCD travel to YouTube with minimal rework — re-check B and D at the platform's pacing before shifting. Where a creator already runs YouTube, activation is operationally seamless. Presence verified via Klear by Meltwater and web check.</div>
+    </div>
+  </div>
+
+  <h2>Connecting to community management</h2>
+  <div class="steps">
+    <div class="step"><b>Prime time to post</b><div>Cohort-level engagement rhythms identify the posting windows where each audience actually responds — PH moms peak early morning and 8–10pm; JP beauty audiences peak late evening.</div><i>Meltwater community management</i></div>
+    <div class="step"><b>Campaign first draft</b><div>Automation blends the winning trend, the cohort insight, brand voice and the ABCD rubric into a first-draft campaign concept for the brand team to react to — cutting briefing cycles from weeks to days.</div><i>Meltwater trend blender automation</i></div>
+    <div class="step"><b>Boost governance</b><div>Every boost decision, ABCD sub-score and outcome is logged, so the threshold self-tunes each quarter and spend concentrates on creative that compounds.</div><i>Meltwater intelligence loop</i></div>
+  </div>
+
+  <div class="opp">
+    <h3>The top opportunity to take now</h3>
+    <p><b>Japan (Pantene):</b> boost the damage-repair demo (86) and the before/after reel (80) — both high-ABCD creative on unowned trends; fix the carousel's weak direction (D 4) with a try-the-treatment CTA and re-score; keep capsule-trend budget on hold — its B 9 branding is an asset for owned channels, not for re-buying brand-fuelled reach.</p>
+    <p><b>Philippines (Downy):</b> boost the two posts scoring ≥84 and commission 3–4 fit-ranked KOLs from dashboard 04 against the kulob tension before tag-ulan peaks — brief them on the ABCD rubric so creative arrives boost-ready.</p>
+    <div class="tagrow"><div class="t">Boost score ≥70 only</div><div class="t">ABCD in every creator brief</div><div class="t">Fix weak D before spend</div><div class="t">Lift and shift to YouTube</div><div class="t">Prime-time windows via community management</div></div>
+  </div>
+
+  <div class="foot">
+    <span>Methodology: content trend framework + Google ABCD creative principles (Think with Google / Kantar-validated) · Data: modeled pending live Meltwater pull · Jan – Mar 2026 sample</span>
+    <span>Dashboard 06 of 06 · v2 — ABCD integrated</span>
+    <span>For internal use only. Human review required before implementation.</span>
+  </div>
+</div>
+<script>
+document.getElementById('btn-ph').addEventListener('click',function(){sw('ph')});
+document.getElementById('btn-jp').addEventListener('click',function(){sw('jp')});
+function sw(w){
+  document.getElementById('tab-ph').style.display=w==='ph'?'block':'none';
+  document.getElementById('tab-jp').style.display=w==='jp'?'block':'none';
+  document.getElementById('btn-ph').classList.toggle('on',w==='ph');
+  document.getElementById('btn-jp').classList.toggle('on',w==='jp');
+}
+</script>
+</body>
+</html>
